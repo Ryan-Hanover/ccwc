@@ -1,7 +1,9 @@
 # ccwc
 Clone of wc in C++
 
-##prerequisites
+## prerequisites
 g++
 
-##installation instructions
+## installation instructions
+bash <(curl -s https://raw.githubusercontent.com/Ryan-Hanover/ccwc/main/install.sh)
+
