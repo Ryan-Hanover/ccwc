@@ -10,11 +10,11 @@ bash <(curl -s https://raw.githubusercontent.com/Ryan-Hanover/ccwc/main/install.
 ## Usage 
 Usage: ccwc [option] [filename]
 
-Options:
+## Options:
   -c    Print the byte count
   -l    Print the line count
   -w    Print the word count
-  -m    Print the character count (supports multibyte if locale allows)
+  -m    Print the character count (does not support multi-bytes)
 
 If no option is provided, the default is equivalent to: -l -w -c
 
